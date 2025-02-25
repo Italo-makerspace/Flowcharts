@@ -41,60 +41,19 @@ No desenvolvimento de sistemas, fluxogramas são essenciais para planejar, visua
 
 ## Outros Exemplos de Fluxogramas Aplicados à Lógica de Programação
 
-### Exemplo 1: Fluxograma para Calcular o Fatorial de um Número
+### Exemplo 1: Fluxograma para medir a necessidade de algo
 
-Este fluxograma mostra como calcular o fatorial de um número. O fatorial de um número é o produto de todos os números inteiros de 1 até esse número.
+Este fluxograma mostra se você precisa de algum objeto em especifico e o processo de busca.
 
-```less
-Início
-  |
-Receber número
-  |
-Verificar se o número > 0?
-  |--------------------------|
-  |                          |
-Sim                         Não
-  |                           |
-Número é positivo         Verificar se número == 0?
-  |                           |
-  |----------------------    |
-                          Sim   Não
-                           |     |
-                         Número é zero   Número é negativo
-                           |     |
-                        Exibir resultado
-                           |
-                          Fim
-```
+![e](https://d2slcw3kip6qmk.cloudfront.net/marketing/pages/i18n/pt/Fluxograma_simples.png)
 
-Este exemplo utiliza uma estrutura de repetição (loop) para multiplicar o número por todos os inteiros menores ou iguais a ele.
+Este exemplo utiliza uma estrutura de repetição (loop) para busca de objetos perdidos.
 
 ### Exemplo 2: Fluxograma para Verificar se um Número é Positivo, Negativo ou Zero
 
 Este fluxograma verifica se um número fornecido pelo usuário é positivo, negativo ou zero.
 
-```less
-Início
-  |
-Receber número
-  |
-Verificar se o número > 0?
-  |--------------------------|
-  |                          |
-Sim                         Não
-  |                           |
-Número é positivo         Verificar se número == 0?
-  |                           |
-  |----------------------    |
-                          Sim   Não
-                           |     |
-                         Número é zero   Número é negativo
-                           |     |
-                        Exibir resultado
-                           |
-                          Fim
-```
-
+![s](https://th.bing.com/th/id/OIP.YTPtjz7S2W7BKyUjpMNjdAHaHg?rs=1&pid=ImgDetMain) 
 
 Este exemplo utiliza decisões (losangos) para determinar a categoria do número.
 
