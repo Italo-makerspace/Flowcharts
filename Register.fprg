@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.6">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Student"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-02-25 04:46:31 PM"/>
+        <attribute name="created" value="Student; DSN914-MICRO27; 2025-02-25; 03:08:12 PM; 2686"/>
+        <attribute name="edited" value="Student; DSN914-MICRO27; 2025-02-25; 04:46:31 PM; 2690"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Email" type="String" array="False" size=""/>
+            <input variable="Email"/>
+            <output expression="&quot;Enter your age&quot;"/>
+            <declare name="Age" type="Integer" array="False" size=""/>
+            <input variable="Age"/>
+            <if expression="Age < 18">
+                <then>
+                    <breakpoint/>
+                </then>
+                <else>
+                    <output expression="&quot;Enter your password&quot;"/>
+                </else>
+            </if>
+            <declare name="Password" type="String" array="False" size=""/>
+            <input variable="Password"/>
+            <if expression="len(Password) < 8">
+                <then>
+                    <breakpoint/>
+                </then>
+                <else>
+                    <output expression="&quot;Perfect, completed&quot;"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
